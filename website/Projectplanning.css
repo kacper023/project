@@ -1,0 +1,52 @@
+body {
+  margin: 0; 
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('../images/birds\ eye\ view.png'); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;
+}
+
+.topnav {
+  margin: 0;
+  height: 40px;
+  width: 100%;
+  background-color: rgba(168, 168, 168, 0.3);
+  border-radius: 0px 0px 25px 25px;
+  position: fixed;
+}
+
+.topnav a {
+  float: left;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.topnav a:hover {
+  background-color: rgb(137, 137, 137);
+  color: rgb(0, 0, 0);
+  border-radius: 25px;
+}
+
+.topnav a.active {
+  background-color: rgba(255, 0, 0, 1);
+  color: rgb(255, 255, 255);
+  border-radius: 25px;
+}
+
+.list {
+  color: rgb(0, 0, 0);
+  padding: 10px 10px;
+  margin: 50px;
+  height: 240px;
+  width: 100px;
+  background-color: rgba(168, 168, 168, 0.611);
+  border-radius: 25px;
+  font-size: 30px;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+}
